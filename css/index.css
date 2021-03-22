@@ -1,0 +1,36 @@
+/* index.html css */
+body{
+  background-size: cover;
+  background-position: center;
+  background-image: url("../images/background.jpg");
+  overflow:hidden;
+}
+
+.intro {
+  display: block;
+  text-align: center;
+  background-color: rgba(231, 190, 204, 0.548);
+  margin: 15px;
+  width: 100%;
+  padding: 13.5%;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.329);
+}
+
+.intro p{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.intro h1{
+  font-size: 80px;
+  color: rgb(0, 0, 0);
+  font-family: 'Parisienne', cursive;
+  text-decoration: none;
+}
+
+
+
+
+
