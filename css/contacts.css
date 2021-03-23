@@ -1,2 +1,60 @@
+body {
+    background-image: url('../images/background2.png');
+    margin: auto;
+    width: 100%;
+    background-size: auto;
+}
 
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=email], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #000000;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #e20b5ecc;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    background-color: rgba(231, 190, 204, 0.8);
+    padding: 20px;
+  }
+
+  .links {
+    padding-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    padding-bottom: 30px;
+  }
 
