@@ -62,7 +62,7 @@ body {
 .recipe-card-back {
   border-radius: 10px;
   background-color: rgb(252, 151, 181);
-  color: white;
+  color: black;
   transform: rotateY(180deg);
   padding: 10px;
 }
