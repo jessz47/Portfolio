@@ -5,25 +5,22 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 10fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .about_image{
   grid-row: 1 / span 1;
   border: 3px white solid;
-  padding: 5px;
+  padding: 20px;
   align-items: center;
-  grid-row: 2;
 }
 
 
 .about_text {
-  padding-top: 20px;
+  padding-top: 15px;
   font-size: 2vw;
-  margin: 25px;
+  margin: 20px;
   padding: 5px;
-  grid-row: 2;
 }
 
 h2{
