@@ -1,3 +1,9 @@
+/*
+this page is taken from W3 Schools https://www.w3schools.com/howto/howto_css_contact_form.asp
+using most of their css as well 
+I will mark my changes from theirs using comments*/
+
+/* my edit */
 body {
     background-image: url('../images/background2.png');
     margin: auto;
@@ -5,6 +11,7 @@ body {
     background-size: auto;
 }
 
+/* my edit - i have changed the border radius from each section from 4px to 5px*/
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px; 
@@ -14,18 +21,21 @@ input[type=text], select, textarea {
     margin-bottom: 16px; 
     resize: vertical 
   }
+
+  /* my edit */
   input[type=email], select, textarea {
     width: 100%; 
     padding: 12px; 
     border: 1px solid #ccc; 
-    border-radius: 5px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    border-radius: 5px; 
+    box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
   }
   
-  /* Style the submit button with a specific background color etc */
+
+  /* my edit -changed color of button*/
   input[type=submit] {
     background-color: #000000;
     color: white;
@@ -35,12 +45,11 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
+/* my edit - changed color of button*/
   input[type=submit]:hover {
     background-color: #e20b5ecc;
   }
   
-  /* Add a background color and some padding around the form */
   .container {
     margin-left:10%;
     margin-right: 10%;
@@ -51,6 +60,7 @@ input[type=text], select, textarea {
     padding: 20px;
   }
 
+  /* my edit from here and below */
   .links {
     padding-top: 30px;
     font-size: 16px;
