@@ -37,6 +37,7 @@ body {
 /* Do an horizontal flip when you move the mouse over the recipe box container */
 .recipe-card:hover .recipe-card-inner {
   transform: rotateY(180deg);
+  text-decoration-style: none;
 }
 
 .recipe-card p {
