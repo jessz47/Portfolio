@@ -81,11 +81,7 @@ body {
 }
 
 
-.recipe-card:focus{
-  transform: rotateY(180deg);
-}
-
-.recipe-card-inner:focus {
+.recipe-card:focus .recipe-card-inner{
   transform: rotateY(180deg);
 }
 
